@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./config/webpack.dev.js",
     "build": "cross-env NODE_ENV=production node config/build.js",
-    "run_dist": "serve dist"
+    "demo": "serve ./dist"
   },
   "dependencies": {
     "react": "^17.0.1",
